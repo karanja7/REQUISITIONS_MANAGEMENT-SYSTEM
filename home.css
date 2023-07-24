@@ -1,0 +1,474 @@
+@font-face {
+  font-family: "josefin";
+  src: url(images/OregonLdoBold-gxe6.ttf);
+}
+@font-face {
+  font-family: "palatino";
+  src: url(images/Poppins\ Light.otf);
+}
+@font-face {
+  font-family: "mylogofont";
+  src: url(images/my\ logo\ font\(Quicksand\).otf);
+}
+
+
+*{
+    box-sizing: border-box;
+}
+    
+    /*GPT */
+   /* Reset default margin and padding */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin-left: 250px;
+  font-family: 'palatino', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 20px;
+  background-color: #f2f2f2;
+  
+}
+
+.logo {
+  width: 165px;
+  height: auto;
+  border-radius: 2px;
+  font-family: 'mylogofont', sans-serif;
+  font-size: 25px;
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+  padding: 4px 20px;
+}
+nav a:hover{
+background-color: #333652;
+
+border-radius: 5px;
+color: wheat;
+}
+
+.reqpageheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 20px;
+  margin-top: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  
+}
+
+.sidebar {
+  font-family: 'palatino', sans-serif;
+  font-size: 15px;
+  width: 250px;
+  background-image: linear-gradient(-225deg, #5885AF 0%, #EEEDE7 100%);
+  color: black;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.user-info {
+  margin-bottom: 20px;
+}
+
+.menu li {
+  list-style-type: none;
+  
+}
+
+.menu li a {
+  display: block;
+  font-family: 'palatino', sans-serif;
+  color: #3a414a;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.menu li a:hover {
+  background-color: #333652;
+  color: #fff;
+  border-radius: 6px;
+}
+
+
+
+#sign-out-btn {
+  font-family: "palatino", sans-serif;
+  background-color: #DBE8D8;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.main-content {
+  font-family: 'palatino',sans-serif;
+  background-image: linear-gradient(-225deg, #F8FAFD 0%, #F8FAFD 100%);
+  margin-left: 250px;
+  padding: 20px;
+}
+.home-main-content {
+  font-family: 'palatino',sans-serif;
+  min-height: 200px;
+  background-image: linear-gradient(-225deg, #F8FAFD 0%, #F8FAFD 100%);
+  margin-left: 250px;
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+.home-main-content h1 {
+font-family: 'palatino';
+  margin-top: 10px;
+  font-size: 45px;
+  margin-bottom: 0px;
+  margin: 0;
+}
+/* home page */
+
+/* home boxes */
+#boxes{
+  margin-left: 260px;
+  margin-top: 20px;
+
+}
+
+#boxes .box{
+  font-family: 'palatino';
+  float:left;
+  text-align: center;
+  width: 30%;
+  padding: .5px;
+}
+
+#boxes .box img{
+  width: 380px;
+}
+#main .container{
+  font-family: 'palatino';
+  font-size: 15px;
+  margin-left: 260px;
+      
+}
+/*home sidebar below*/
+.dark{
+  padding: 15px;
+  background: #859ba3;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+article#main-col{
+  float: left;
+  width: 65%;
+
+}
+#help-support {
+  float: left;
+  padding: 20px;
+}
+
+#help-support h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-container {
+  margin-left: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contact {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+}
+
+.contact h3 {
+  color: #007bff;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+
+/*budgets page*/
+
+/* financial data*/
+.tabular--wrapper{
+  background: #fff;
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 2rem;
+}
+.table-container{
+  width: 100%;
+}
+table{
+width: 100%;
+border-collapse: collapse;
+}
+thead{
+  background: rgba(113, 99, 186, 255);
+  color: #fff;
+}
+th {
+  padding: 15px;
+  text-align: left;
+}
+tbody{
+  background: #f2f2f2;
+}
+td{
+  padding: 15px;
+  font-size: 14px;
+  color: #333;
+}
+tr:nth-child(even) {
+  background: #fff;
+}
+tfoot{
+  background: rgba(113, 99, 186, 255);
+  font-weight: bold;
+  color: #fff;
+}
+tfoot td{
+  padding: 15px;
+  color: #fff;
+}
+.table-container button{
+  color: green;
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+.table-container button:hover{
+  font-weight: bold;
+}
+
+
+/*budgets items */
+.budget-card {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.budget-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.budget-amount,
+.budget-spending,
+.budget-remaining {
+  margin-top: 10px;
+}
+
+.budget-details {
+  margin-top: 20px;
+}
+
+.budget-item {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.budget-item:hover {
+  background-color: #b5c3c8;
+  cursor: pointer;
+}
+/*requisitions page*/
+.directory {
+  font-family: 'palatino', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 20px;
+}
+.directory h1{
+  padding-right: 45px;
+}
+.directory a {
+  padding-right: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+/* Styles for the form container */
+#requisition-form {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+/* Styles for form labels */
+.req-label {
+  display: inline-block;
+  width: 150px;
+  margin-right: 10px;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Styles for form inputs */
+.req-input {
+  display: inline-block;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Styles for the submit button */
+#requisition-form button[type="submit"] {
+  display: block;
+  margin-top: 30px;
+  margin-left: 250px;
+  width: 50%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Styles for the success message */
+.form-success {
+  color: green;
+  margin-top: 10px;
+}
+
+/* FAQs page*/
+.no-data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.no-data-container img {
+  margin: left 50px; ;
+  width: 100px; /* Adjust the image size as needed */
+  height: 100px; /* Adjust the image size as needed */
+}
+
+.no-data-container p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+
+
+/* Responsive Styles */
+
+@media screen and (max-width: 1024px) {
+  
+  .sidebar {
+      width: 200px;
+  }
+ 
+  .main-content, .footer {
+      margin-left: 200px;
+      padding: 20px;
+  }
+   .box{
+    margin-left: 0px;
+    margin-top: 20px;
+  
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  .sidebar {
+      width: 100%;
+      padding: 20px 10px;
+      position: static;
+      height: auto;
+  }
+  
+  .header, .contact-container {
+    margin-left: 0px;
+}
+
+  .main-content,
+  .home-main-content  {
+      margin-left: 0px;
+  }
+  #boxes,#boxes .box,
+  article#main-col,
+  aside#sidebar,
+  #main .container, .footer {
+    margin-left: 0px;
+    float: none;
+    text-align: center;
+    width: 100%;
+
+  }
+  #showcase h1{
+    margin-top: 10px;
+
+  }
+
+}
+
+.footer {
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+}
